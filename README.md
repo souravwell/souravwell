@@ -47,7 +47,7 @@
 
 ## 📊 Dashboard Preview
 
-![Dashboard](hospital_prediction.ipynb)
+![Dashboard](Hospital Occupancy Dashboard.pbix)
 
 ---
 
