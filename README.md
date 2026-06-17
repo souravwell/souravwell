@@ -47,7 +47,7 @@
 
 ## 📊 Dashboard Preview
 
-![Dashboard](Hospital Occupancy Dashboard.pbix)
+![Dashboard](Previev.png)
 
 ---
 
