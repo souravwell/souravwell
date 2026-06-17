@@ -1,16 +1,30 @@
-## Hi there 👋
+## 🛠️ Skills
 
-<!--
-**souravwell/souravwell** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 💻 Programming
 
-Here are some ideas to get you started:
+* Python
+* SQL
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 📊 Data Analytics
+
+* Pandas
+* NumPy
+* Data Cleaning
+* Data Visualization
+
+### 📈 Visualization Tools
+
+* Power BI
+* Excel
+
+### 🤖 Machine Learning
+
+* Linear Regression
+* Feature Engineering
+* Time Series Analysis
+
+### 🧰 Tools
+
+* Jupyter Notebook
+* Git & GitHub
+*
