@@ -47,7 +47,7 @@
 
 ## 📊 Dashboard Preview
 
-![Dashboard](outputs/hospital_dashboard.png)
+![Dashboard](hospital_prediction.ipynb)
 
 ---
 
