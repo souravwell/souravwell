@@ -1,0 +1,91 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-labelledby="title desc">
+  <title id="title">Sourav Kumar — Data Analytics and Data Science</title>
+  <desc id="desc">An animated portfolio banner featuring Python, SQL, Data Science, Machine Learning and NLP.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101827"/>
+      <stop offset="55%" stop-color="#172554"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#93c5fd" stroke-opacity=".10" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1000" height="320" rx="24" fill="url(#background)"/>
+  <rect width="1000" height="320" rx="24" fill="url(#grid)"/>
+  <rect x="1" y="1" width="998" height="318" rx="23" fill="none" stroke="#93c5fd" stroke-opacity=".35"/>
+
+  <g fill="none" stroke="url(#accent)" stroke-width="2" opacity=".65">
+    <path d="M610 70H730L770 110H940"/>
+    <path d="M650 220H760L800 180H960"/>
+    <path d="M700 150H820L850 120H960"/>
+    <circle cx="730" cy="70" r="4" fill="#22d3ee"/>
+    <circle cx="770" cy="110" r="4" fill="#a78bfa"/>
+    <circle cx="760" cy="220" r="4" fill="#f472b6"/>
+    <circle cx="850" cy="120" r="4" fill="#22d3ee"/>
+  </g>
+
+  <g fill="#67e8f9" opacity=".8">
+    <circle cx="650" cy="55" r="3">
+      <animate attributeName="opacity" values=".2;1;.2" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="930" cy="245" r="4">
+      <animate attributeName="opacity" values="1;.25;1" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="580" cy="250" r="3">
+      <animate attributeName="opacity" values=".2;1;.2" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g transform="translate(820 155)">
+    <circle r="76" fill="#6366f1" opacity=".08"/>
+    <circle r="61" fill="none" stroke="#67e8f9" stroke-opacity=".8" stroke-width="1.5" stroke-dasharray="5 8">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="43" fill="#0f172a" stroke="url(#accent)" stroke-width="2"/>
+    <path d="M-17 -15L-34 0L-17 15 M17 -15L34 0L17 15 M7 -23L-7 23" fill="none" stroke="#67e8f9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+    <circle cx="0" cy="-61" r="5" fill="#f472b6"/>
+    <circle cx="53" cy="30" r="5" fill="#22d3ee"/>
+    <circle cx="-53" cy="30" r="5" fill="#a78bfa"/>
+  </g>
+
+  <text x="65" y="66" font-family="monospace" font-size="13" letter-spacing="4" fill="#67e8f9">HELLO, WORLD!  /  PORTFOLIO</text>
+
+  <text x="62" y="125" font-family="Arial, Helvetica, sans-serif" font-size="43" font-weight="700" fill="#ffffff">Sourav Kumar</text>
+
+  <rect x="65" y="145" width="355" height="3" rx="1.5" fill="url(#accent)">
+    <animate attributeName="width" values="80;355;280;355" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="65" y="183" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" fill="#c4b5fd">DATA ANALYST  ·  DATA SCIENCE</text>
+  <text x="65" y="211" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#cbd5e1">Machine Learning  ·  NLP  ·  Python  ·  SQL</text>
+
+  <g transform="translate(65 244)" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="600">
+    <rect width="95" height="27" rx="13.5" fill="#0891b2" fill-opacity=".2" stroke="#22d3ee" stroke-opacity=".8"/>
+    <text x="47.5" y="18" fill="#a5f3fc" text-anchor="middle">DATA ANALYTICS</text>
+    <rect x="105" width="92" height="27" rx="13.5" fill="#7c3aed" fill-opacity=".2" stroke="#a78bfa" stroke-opacity=".8"/>
+    <text x="151" y="18" fill="#ddd6fe" text-anchor="middle">DATA SCIENCE</text>
+    <rect x="207" width="112" height="27" rx="13.5" fill="#db2777" fill-opacity=".15" stroke="#f472b6" stroke-opacity=".8"/>
+    <text x="263" y="18" fill="#fbcfe8" text-anchor="middle">MACHINE LEARNING</text>
+  </g>
+
+  <text x="65" y="296" font-family="monospace" font-size="11" fill="#94a3b8">BUILDING PROJECTS · LEARNING EVERY DAY</text>
+  <circle cx="955" cy="38" r="4" fill="#22d3ee" filter="url(#glow)">
+    <animate attributeName="r" values="3;6;3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
